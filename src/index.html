@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+
+    <!--================= HEADER ==============-->
+    <header class="bg-black shadow-lg text-white sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-16 md:h-24 flex justify-between items-center gap-2">
+
+            <!-- Logo text -->
+            <a href="#" class="flex justify-center items-center gap-4">
+               <img src="/photo/bike logo.png" alt="" class="w-12 h-12 rounded-full">
+                <h1 class="text-2xl font-bold text-blue-700">Motor-Bike</h1>
+            </a>
+
+            <!-- Desktop Navbar -->
+            <nav class="hidden lg:flex space-x-2">
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:underline text-red-600">Home</a>
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-400 hover:text-white hover:underline">About</a>
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-400 hover:underline">Shop</a>
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-400 hover:underline">Blog</a>
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-400 hover:underline">Pages</a>
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-400 hover:underline">Contact Us</a>
+            </nav>
+        
+
+            <!-- Mobile Menu Btn -->
+            <button type="button" id="mobilebtn" class="lg:hidden px-4 py-2 border rounded-xl text-md font-semibold bg-blue-500 hover:bg-blue-700">Menu</button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobilemenu" class="hidden lg:hidden space-y-4 px-4 bg-gray-400 md:text-center">
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">H</a>
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">A</a>
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">S</a>
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">C</a>
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">C</a>  
+        </div>
+    </header>
+    <main>
+
+    <!--================= HERO SECTION ==============-->
+    <section class="relative h-full w-full overflow-hidden py-40">
+
+        <div class="absolute inset-0">
+          <img src="/photo/hero p.jpg" alt="" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/60"></div>
+    </div>
+           
+          <!-- hero text -->
+          <div class="relative z-10 flex flex-col items-center justify-start h-full px-6 md:px-16 md:text-left text-white">
+             <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">Welcome to Bike world</h1>
+             <p class="text-base md:text-lg mb-4 text-white">Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos <br> voluptatibus habitant?
+            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.</p>
+
+            
+            <div class="flex flex-center gap-4 mt-6">
+                <button class="inline-block border rounded-lg px-8 py-2 bg-red-500 hover:bg-gray-600 text-white text-xl transition">View More
+                </button>
+                <button class="inline-block border rounded-lg px-6 py-3 bg-white hover:bg-blue-600 text-gray-500 hover:text-white text-xl transition">Contact
+                    Us</button>
+            </div>
+          </div>
+       </section>
+       
+       <!--================= SERVICE SECTION ==============-->
+       <section class="py-16">
+         <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            <h1 class="text-3xl md:text-4xl mb-8 font-bold text-red-800 text-center">IMPROVE GENERAL
+            RIDEABILITY</h1>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            
+            <!-- service card 1 -->
+            <div class="bg-white p-6 border border-red-500 rounded-xl shadow-md hover:shadow-xl transition">   
+                <img src="/photo/bike.jpg" alt="" w-ful h-auto object-cover>
+                <h3 class="text-md font-semibold text-red-600 mb-2">A SEPTEMBER 13, 2019</h3>
+                <p class="text-gray-600 mb-4 text-2xl">MX SUNSET</p>
+                <p class="text-gray-800">Lorem ipsum dolor sit amet, sea no tantas consul disputationi, ei his tota legere.</p>
+                <a href="#" class="inline-block text-blue-600 mt-6 font-semibold hover:underline">Read More</a>
+            </div>
+
+            <!-- service card 2 -->
+            <div class="bg-white p-6 border border-red-500 rounded-xl shadow-md hover:shadow-xl transition">
+                <img src="/photo/bike.jpg" alt="" w-ful h-auto object-cover>
+                <h3 class="text-md font-semibold text-red-600 mb-2">A SEPTEMBER 14, 2019</h3>
+                <p class="text-gray-600 mb-4 text-2xl">4-HOUR TOUR</p>
+                <p class="text-gray-800">Lorem ipsum dolor sit amet, sea no tantas consul disputationi, ei his tota legere.</p>
+                <a href="#" class="inline-block text-blue-600 mt-6 font-semibold hover:underline">Read More</a>
+            </div>
+
+            <!-- service card 3 -->
+            <div class="bg-white p-6 border border-red-500 rounded-xl shadow-md hover:shadow-xl transition">
+                <img src="/photo/bike.jpg" alt="" w-ful h-auto object-cover>
+                <h3 class="text-md font-semibold text-red-600 mb-2">A SEPTEMBER 16, 2019</h3>
+                <p class="text-gray-600 mb-4 text-2xl">DIRT BIKE EXPERIENCE</p>
+                <p class="text-gray-800">Lorem ipsum dolor sit amet, sea no tantas consul disputationi, ei his tota legere.</p>
+                <a href="#" class="inline-block text-blue-600 mt-6 font-semibold hover:underline">Read More</a>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <h1 class="text-xl text-red-700 tracking-wide">Ipsum Porta</h1>
+                    <h2 class="text-4xl font-bold mt-6">THE PROFESSIONAL <br> GEARHEADS</h2>
+                    <p class="text-md mt-4">Aliquam lorem ante, dapibus in, viverra quis, feugiat hellus rra null aut metus varius laoreet srtrum. Imperdiet e
+                        uricies vel augue dapibus in, viverra quis srtrum aenean.</p>
+                   
+                    <a href="#" class="inline-block text-blue-600 mt-6 font-semibold hover:underline">Read More</a>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="/photo/about.jpg" alt="" class="h-auto w-full object-cover rounded-xl">
+                </div>
+            </div>
+
+        </section>
+
+        <!--================= CONTACT SECTION ==============-->
+        <section py="16">
+            <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+            
+                <form class="max-w-md mx-auto border rounded-2xl bg-gray-800 px-6 py-4 space-y-6">
+                    <h1 class="text-2xl md:text-3xl mb-8 font-semibold text-white text-center">Contact Me</h1>
+                <div class="space-y-2">
+                    <label for="Name" class="text-md font-semibold text-white">Name:</label><br>
+                    <input type="text" id="Name" class="w-full px-4 py-2 border rounded-xl bg-gray-100 hover:border-blue-600 mt-2"required>
+                </div>
+
+                <div class="space-y-2">
+                    <label for="email" class="text-md font-semibold text-white">Email:</label><br>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-xl bg-gray-100 hover:border-blue-600 mt-2" required>
+                </div>
+                <div class="space-y-2">
+                    <label for="password" class="text-md font-semibold text-white">Password:</label><br>
+                    <input type="password" id="password" class="w-full px-4 py-2 border rounded-xl bg-gray-100 hover:border-blue-600 mt-2" required>
+                </div>
+
+                <div class="flex justify-center gap-4">
+                    <button class="border rounded-xl bg-amber-600 hover:bg-amber-800 px-4 py-2 text-white text-xl font-semibold">Submit</button>
+                    <button class="border rounded-xl bg-blue-600 hover:bg-blue-800 px-4 py-2 text-white text-xl font-semibold">Reset</button>
+                </div>
+               </form>
+            </div>
+        </section>
+    </main>
+        <!--================ FOOTER ====================-->
+    <footer>
+        
+    </footer>
+    <!-- script -->
+    <script>
+        const mobilemenu = document.getElementById("mobilemenu");
+        const mobilebtn = document.getElementById("mobilebtn");
+         mobilebtn.addEventListener("click",()=>{
+         mobilemenu.classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>
